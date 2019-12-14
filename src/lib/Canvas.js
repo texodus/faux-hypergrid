@@ -58,9 +58,6 @@ function Canvas(div, component, contextAttributes) {
     document.addEventListener('mouseup', function(e) {
         self.finmouseup(e);
     });
-    document.addEventListener('wheel', function(e) {
-        self.finwheelmoved(e);
-    });
     document.addEventListener('keydown', function(e) {
         self.finkeydown(e);
     });
